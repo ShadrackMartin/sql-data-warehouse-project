@@ -99,5 +99,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 Hi there! I am **Martin Humphrey Shadrack**. I am an IT student at the College of Business Education (Dodoma Campus). I am passionate about data and Artificial Intelligence and am on a mission to become a professsional in the field. To build data and AI solutions and to share the knowledge and skills that I gain with others.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
+
 WhatsApp +255711962353
+
 Email shadrackmartin240@gmail.com
