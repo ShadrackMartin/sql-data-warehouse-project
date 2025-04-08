@@ -100,6 +100,6 @@ Hi there! I am **Martin Humphrey Shadrack**. I am an IT student at the College o
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-WhatsApp +255711962353
+WhatsApp: +255711962353
 
-Email shadrackmartin240@gmail.com
+Email: shadrackmartin240@gmail.com
