@@ -1,7 +1,7 @@
 # Data Warehouse and Analytics Project
 
 I followed along this project from a youtube upload on this link https://www.youtube.com/watch?v=9GVqKuTVANE&t=150s&ab_channel=DatawithBaraa
-
+The original author used SQL Server, but I did it using PostgreSQL
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
@@ -22,26 +22,17 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 This project involves:
 
 1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+2. **ETL Pipelines**: Extracting, Transforming, and Loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
-- SQL Development
-- Data Architect
-- Data Engineering  
-- ETL Pipeline Developer  
-- Data Modeling  
-- Data Analytics  
-
----
 
 ## 🚀 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 #### Specifications
 - **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
@@ -100,6 +91,6 @@ Hi there! I am **Martin Humphrey Shadrack**. I am an IT student at the College o
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-WhatsApp: +255711962353
+Normal Calls, SMS and WhatsApp: +255711962353
 
 Email: shadrackmartin240@gmail.com
