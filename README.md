@@ -1,6 +1,7 @@
 # Data Warehouse and Analytics Project
 
 I followed along this project from a youtube upload on this link https://www.youtube.com/watch?v=9GVqKuTVANE&t=150s&ab_channel=DatawithBaraa
+
 The original author used SQL Server, but I did it using PostgreSQL
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
