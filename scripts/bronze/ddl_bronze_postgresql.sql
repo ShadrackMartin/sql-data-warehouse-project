@@ -6,9 +6,10 @@ Script Purpose:
 	This script creates tables in the 'bronze' schema, dropping existing tables
 	if they already exist.
 	Run this script to re-define the DDL structure of 'bronze' Tables
-	NOTE; I had to enter one line at a time using Postgres in ubuntu terminal
+	NOTE; I had to enter one line at a time using Postgres in lubuntu terminal
 ====================================================================================
 */
+
 \c datawarehouse
 
 DROP TABLE IF EXISTS bronze.crm_cust_info;
@@ -24,7 +25,7 @@ CREATE TABLE bronze.crm_cust_info (
 );
 
 
-DROP TABLE bronze.crm_prd_info;
+DROP TABLE IF EXISTS bronze.crm_prd_info;
 
 CREATE TABLE bronze.crm_prd_info (
     prd_id       INT,
@@ -37,7 +38,7 @@ CREATE TABLE bronze.crm_prd_info (
 );
 
 
-DROP TABLE bronze.crm_sales_details;
+DROP TABLE IF EXISTS bronze.crm_sales_details;
 
 CREATE TABLE bronze.crm_sales_details (
     sls_ord_num   VARCHAR(50),
@@ -52,7 +53,7 @@ CREATE TABLE bronze.crm_sales_details (
 );
 
 
-DROP TABLE bronze.erp_cust_az12;
+DROP TABLE IF EXISTS bronze.erp_cust_az12;
 
 CREATE TABLE bronze.erp_cust_az12 (
     cid   VARCHAR(50),
@@ -61,7 +62,7 @@ CREATE TABLE bronze.erp_cust_az12 (
 );
 
 
-DROP TABLE bronze.erp_loc_a101;
+DROP TABLE IF EXISTS bronze.erp_loc_a101;
 
 CREATE TABLE bronze.erp_loc_a101 (
     cid   VARCHAR(50),
@@ -69,7 +70,7 @@ CREATE TABLE bronze.erp_loc_a101 (
 );
 
 
-DROP TABLE bronze.erp_px_cat_g1v2;
+DROP TABLE IF EXISTS bronze.erp_px_cat_g1v2;
 
 CREATE TABLE bronze.erp_px_cat_g1v2 (
     id          VARCHAR(50),
